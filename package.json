@@ -1,0 +1,21 @@
+{
+  "name": "exercice_lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercice_lodash.js",
+  "scripts": {
+    "start": "exercice_lodash.js",
+    "dev": "concurrently \"tsc --watch\" \"nodemon -q ./dist/exercice_lodash.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Séguin",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.197",
+    "lodash": "^4.17.21"
+  }
+}
